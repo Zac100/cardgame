@@ -1,0 +1,19 @@
+img{
+    /* height: 50%; */
+    width: 35%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding-top:10px;
+}
+
+button{
+    background-color: aqua
+}
+h1{
+    color: white;
+}
