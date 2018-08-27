@@ -5,12 +5,12 @@ var checkWinner = [];
 var score = 0;
 //hold the urls for each of the different cards
 var urlObj = {
-    2: "file:///Users/stevechen/Documents/dev/Card%20Game/cardimages/2.png",
-    3: "file:///Users/stevechen/Documents/dev/Card%20Game/cardimages/3.png",
-    4: "file:///Users/stevechen/Documents/dev/Card%20Game/cardimages/4.png",
-    5: "file:///Users/stevechen/Documents/dev/Card%20Game/cardimages/5.png",
-    6: "file:///Users/stevechen/Documents/dev/Card%20Game/cardimages/6.png",
-    back: "file:///Users/stevechen/Documents/dev/Card%20Game/cardimages/backofcard.jpg",
+    2: "cardimages/2.png",
+    3: "cardimages/3.png",
+    4: "cardimages/4.png",
+    5: "cardimages/5.png",
+    6: "cardimages/6.png",
+    back: "cardimages/backofcard.jpg",
 }
 
 function cardClick(para1){
@@ -36,8 +36,8 @@ function cardClick(para1){
             }
             else{
                 setTimeout(function(){
-                checkWinner[0].src = "file:///Users/stevechen/Documents/dev/Card%20Game/cardimages/backofcard.jpg";
-                checkWinner[1].src = "file:///Users/stevechen/Documents/dev/Card%20Game/cardimages/backofcard.jpg";
+                checkWinner[0].src = "cardimages/backofcard.jpg";
+                checkWinner[1].src = "cardimages/backofcard.jpg";
                 
                 // checkWinner[0].setAttribute( "onclick", "javascript: cardClick(this);" )
                 // checkWinner[1].setAttribute( "onclick", "javascript: cardClick(this);" )
